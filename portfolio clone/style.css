@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+
+}
+nav{
+    width: 100%;
+    overflow: hidden;
+    max-width: 100vw;
+    position: fixed;
+    
+}
+
+.navbar{
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin: 0 auto;
+    padding: 1rem 2rem;
+    max-width: 100vw;
+    z-index: 5;
+
+    
+    
+}
+.nav-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    margin-right:1rem;
+}
+li{
+    display: inline-block;
+    
+}
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* .intro{
+    background-image: linear-gradient(to bottom, #b73434, #444);
+    width: 100%;
+    height: 500px;
+} */
+
+/* .projects{
+    background-color: #88e783;
+    width: 100%;
+    height: 500px;
+} */
+
+.foot{
+    background-color: #000;
+    width: 100%;
+    height: 160px;
+    color: white;
+    text-align: center;
+    line-height: 2.1rem;
+    padding: 2rem;
+}
+.foot-icons button{
+    background-color: black;
+    border: none;
+    padding: 0.5rem 0.5rem;
+}
+.foot-icons i{
+    color: white;
+    background-color: black;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom:2px solid grey;
+}
+
+.btn{
+    border-radius: 30px;
+}
+.intro{
+    padding-top: 150px;
+}
+.dp{
+    height: 100px;
+    width: 100px;
+    border-radius: 9rem;
+    
+}
+.btn-secondary{
+    background-color:black;
+
+}
+.btn-secondary a{
+    color: white;
+    text-decoration: none;
+}
+.card{
+    background: url(./assets/project-three.png);
+    background-size: cover;
+    background-blend-mode: lighten;
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+
+}
+.project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.projects{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/* Mobile-first styles */
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+.main {
+    width: 80%;
+    /* Other styles... */
+}
+
+
+@media (min-width: 768px) {
+    /* Tablet styles */
+    .main {
+        width: 70%;
+        /* Other styles... */
+    }
+}
+@media (min-width: 1024px) {
+    /* Desktop styles */
+    .main {
+        width: 60%;
+        /* Other styles... */
+    }
+}
